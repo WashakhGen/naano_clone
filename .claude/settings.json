@@ -1,0 +1,18 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          { "type": "command", "command": "node .claude/capture.mjs UserPromptSubmit" }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          { "type": "command", "command": "node .claude/capture.mjs Stop" }
+        ]
+      }
+    ]
+  }
+}
